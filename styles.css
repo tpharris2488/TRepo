@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight:600;
+    color: midnightblue;
+}
+
+span {
+    color:yellow;
+    font-weight: 700;
+}
+
+.boxes {
+    margin: 3em;
+    padding: 3em;
+    border: 10px solid yellow;
+    border-radius: 10px;
+    width: 30em;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: violet;
+}
+#box2{
+    background-color: tomato;
+    position: relative;
+    left: 600px;
+    bottom: 325px
+}
+#box3{
+    background-color: turquoise;
+}
+#box4{
+    background-color: yellowgreen;
+}
+.image {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+}
+h1 { color: turquoise;}
+.original {
+    color: violet;
+}
+.additional{
+    color: seagreen;
+}
+
+ul {
+    color: purple;
+}
