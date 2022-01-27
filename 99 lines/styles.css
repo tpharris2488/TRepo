@@ -1,0 +1,32 @@
+body {
+    background-color: #a2f320;
+}
+
+header h1 {
+    position: relative;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+    color: #8d1cc2;
+    /* font-weight: bold; */
+}
+
+.friend {
+    position: relative;
+    margin: 0 auto;
+    padding: 1rem;    
+    width: 50%;
+    background-color: #2bdddd;
+    border-radius: 1rem;
+    -webkit-box-shadow: 5px 10px 20px -10px rgb(150, 118, 120);
+    -moz-box-shadow: 5px 10px 20px -10px rgb(0, 0, 0);
+    box-shadow: 5px 10px 20px -10px rgb(46, 149, 240);
+    text-align: center;
+}
+
+.friend h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
