@@ -1,0 +1,33 @@
+<style>
+.row {
+    display: table;
+    border-bottom: 1px solid black;
+} 
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.row > div {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.row > div:last-child {
+    border-right: none;
+}
+
+.board {
+    width: 602px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+</style>
